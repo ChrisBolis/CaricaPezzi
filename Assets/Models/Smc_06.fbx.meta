@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 216a638820942c4439b0dd7240f19a23
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: B_02_1_LW
+    100002: B_02_2_LW
+    100004: B_03_1_LW
+    100006: B_03_2_LW
+    100008: B_04_1_LW
+    100010: B_04_2_LW
+    100012: B_05_1_LW
+    100014: B_05_2_LW
+    100016: B_06_1_LW
+    100018: B_06_2_LW
+    100020: Barre04_LW
+    100022: Barre_Front_LW
+    100024: Button_01_LW
+    100026: Button_02_LW
+    100028: Button_05_LW
+    100030: Cavi_Blu_01_LW
+    100032: Cavi_Blu_01_LW_1
+    100034: Cilindro1_LW
+    100036: Cilindro1_LW_2
+    100038: CINEMA_4D_Editor
+    100040: Cisterna_LW
+    100042: Highlight_01_LW
+    100044: Highlight_02_LW
+    100046: Highlight_02_TOT_LW
+    100048: Highlight_03_LW
+    100050: Highlight_04_LW
+    100052: Highlight_05_LW
+    100054: Highlight_05_TOT_LW
+    100056: Highlight_06_01_LW
+    100058: Highlight_06_02_LW
+    100060: Piastra_01_LW
+    100062: PiastraGrande_LW
+    100064: Piastre_LW
+    100066: Piedino_Metallo_LW
+    100068: Plastica_LW
+    100070: Scatola2_LW
+    100072: //RootNode
+    100074: SMC_Maint_L
+    100076: Strutture_Barre_01_LW
+    100078: Top_LW
+    100080: Tubo01_LW
+    400000: B_02_1_LW
+    400002: B_02_2_LW
+    400004: B_03_1_LW
+    400006: B_03_2_LW
+    400008: B_04_1_LW
+    400010: B_04_2_LW
+    400012: B_05_1_LW
+    400014: B_05_2_LW
+    400016: B_06_1_LW
+    400018: B_06_2_LW
+    400020: Barre04_LW
+    400022: Barre_Front_LW
+    400024: Button_01_LW
+    400026: Button_02_LW
+    400028: Button_05_LW
+    400030: Cavi_Blu_01_LW
+    400032: Cavi_Blu_01_LW_1
+    400034: Cilindro1_LW
+    400036: Cilindro1_LW_2
+    400038: CINEMA_4D_Editor
+    400040: Cisterna_LW
+    400042: Highlight_01_LW
+    400044: Highlight_02_LW
+    400046: Highlight_02_TOT_LW
+    400048: Highlight_03_LW
+    400050: Highlight_04_LW
+    400052: Highlight_05_LW
+    400054: Highlight_05_TOT_LW
+    400056: Highlight_06_01_LW
+    400058: Highlight_06_02_LW
+    400060: Piastra_01_LW
+    400062: PiastraGrande_LW
+    400064: Piastre_LW
+    400066: Piedino_Metallo_LW
+    400068: Plastica_LW
+    400070: Scatola2_LW
+    400072: //RootNode
+    400074: SMC_Maint_L
+    400076: Strutture_Barre_01_LW
+    400078: Top_LW
+    400080: Tubo01_LW
+    2000000: CINEMA_4D_Editor
+    2100000: Metallo
+    2100002: Plastica_Nera
+    2100004: Cavi_Blu
+    2100006: Botton_06
+    2100008: Highlight_04_LW
+    2100010: Highlight_05_LW
+    2100012: Botton_03
+    2100014: Botton_Red
+    2100016: Piastre_LW
+    2100018: PiastraGrande_LW
+    2100020: Barre_Front_LW
+    2100022: Barre04_LW
+    2100024: Top_LW
+    2100026: Tubo01_LW
+    2100028: Piastra_01_LW
+    2100030: Piedino_Metallo_LW
+    2100032: Strutture_Barre_01_LW
+    2100034: Yellow
+    2300000: B_02_1_LW
+    2300002: B_02_2_LW
+    2300004: B_03_1_LW
+    2300006: B_03_2_LW
+    2300008: B_04_1_LW
+    2300010: B_04_2_LW
+    2300012: B_05_1_LW
+    2300014: B_05_2_LW
+    2300016: B_06_1_LW
+    2300018: B_06_2_LW
+    2300020: Barre04_LW
+    2300022: Barre_Front_LW
+    2300024: Button_01_LW
+    2300026: Cavi_Blu_01_LW
+    2300028: Cavi_Blu_01_LW_1
+    2300030: Cilindro1_LW
+    2300032: Cilindro1_LW_2
+    2300034: Cisterna_LW
+    2300036: Highlight_02_LW
+    2300038: Highlight_04_LW
+    2300040: Highlight_05_LW
+    2300042: Piastra_01_LW
+    2300044: PiastraGrande_LW
+    2300046: Piastre_LW
+    2300048: Piedino_Metallo_LW
+    2300050: Plastica_LW
+    2300052: Scatola2_LW
+    2300054: Strutture_Barre_01_LW
+    2300056: Top_LW
+    2300058: Tubo01_LW
+    3300000: B_02_1_LW
+    3300002: B_02_2_LW
+    3300004: B_03_1_LW
+    3300006: B_03_2_LW
+    3300008: B_04_1_LW
+    3300010: B_04_2_LW
+    3300012: B_05_1_LW
+    3300014: B_05_2_LW
+    3300016: B_06_1_LW
+    3300018: B_06_2_LW
+    3300020: Barre04_LW
+    3300022: Barre_Front_LW
+    3300024: Button_01_LW
+    3300026: Cavi_Blu_01_LW
+    3300028: Cavi_Blu_01_LW_1
+    3300030: Cilindro1_LW
+    3300032: Cilindro1_LW_2
+    3300034: Cisterna_LW
+    3300036: Highlight_02_LW
+    3300038: Highlight_04_LW
+    3300040: Highlight_05_LW
+    3300042: Piastra_01_LW
+    3300044: PiastraGrande_LW
+    3300046: Piastre_LW
+    3300048: Piedino_Metallo_LW
+    3300050: Plastica_LW
+    3300052: Scatola2_LW
+    3300054: Strutture_Barre_01_LW
+    3300056: Top_LW
+    3300058: Tubo01_LW
+    4300000: Cilindro1_LW
+    4300002: Scatola2_LW
+    4300004: Highlight_02_LW
+    4300006: Cavi_Blu_01_LW_1
+    4300008: B_06_1_LW
+    4300010: B_06_2_LW
+    4300012: Highlight_04_LW
+    4300014: Highlight_05_LW
+    4300016: Cavi_Blu_01_LW
+    4300018: B_03_1_LW
+    4300020: B_03_2_LW
+    4300022: B_04_1_LW
+    4300024: B_04_2_LW
+    4300026: Piastre_LW
+    4300028: PiastraGrande_LW
+    4300030: Barre_Front_LW
+    4300032: Barre04_LW
+    4300034: Cisterna_LW
+    4300036: Cilindro1_LW_2
+    4300038: Top_LW
+    4300040: Tubo01_LW
+    4300042: Piastra_01_LW
+    4300044: Plastica_LW
+    4300046: Piedino_Metallo_LW
+    4300048: Strutture_Barre_01_LW
+    4300050: Button_01_LW
+    4300052: B_02_1_LW
+    4300054: B_02_2_LW
+    4300056: B_05_1_LW
+    4300058: B_05_2_LW
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barre04_LW
+    second: {fileID: 2100000, guid: 1b36f18e765fa7c4297a402c850a6028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barre_Front_LW
+    second: {fileID: 2100000, guid: c72cf56e5a5cad74bbf60108e973c85f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Botton_03
+    second: {fileID: 2100000, guid: 060cf0cb0e5ee0c42afad0b2fac88c08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Botton_06
+    second: {fileID: 2100000, guid: d7cb62cb11851c648b2874f38b14fef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Botton_Red
+    second: {fileID: 2100000, guid: 420015191c2e7e046b99b1e035cbada8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cavi_Blu
+    second: {fileID: 2100000, guid: cf520524faab23a4889de214c898253c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Highlight_04_LW
+    second: {fileID: 2100000, guid: 5a62dca47c71c34438a93b8a1343a2e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Highlight_05_LW
+    second: {fileID: 2100000, guid: cba6e6c2071c3714aa74b1c14a0cfba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metallo
+    second: {fileID: 2100000, guid: 226da8110e5d37f429003584b7caa903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PiastraGrande_LW
+    second: {fileID: 2100000, guid: d1dfaea2a9853014cb5d918c97895bc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piastra_01_LW
+    second: {fileID: 2100000, guid: d67a6ad5073a367428c48db7e29422a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piastre_LW
+    second: {fileID: 2100000, guid: ed3c4baec04854f4f96306b13d23fca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piedino_Metallo_LW
+    second: {fileID: 2100000, guid: 7a9e4662c3a614d4b8405f31829193b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastica_Nera
+    second: {fileID: 2100000, guid: 384de90b772a6114c872c60b78842ffd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strutture_Barre_01_LW
+    second: {fileID: 2100000, guid: c0148f5072903d145af93837720d55cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_LW
+    second: {fileID: 2100000, guid: b27a74bde39d10048836b0d20dff9769, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tubo01_LW
+    second: {fileID: 2100000, guid: af0770d04f2e0f1439ceb32e01d9c46a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow
+    second: {fileID: 2100000, guid: a02d389ecd7654c41972fc07a29aabc5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Piastre_cOLOR
+    second: {fileID: 2800000, guid: 8aa3fd746bdc1c74dac7e6428a37d265, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

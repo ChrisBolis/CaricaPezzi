@@ -12,6 +12,18 @@ public class PlayerCameraController : MonoBehaviour
     [SerializeField] float range = 100f;
 
     float xAxisClamp;
+    float distance;
+
+    // Variabili per highlighting
+    [SerializeField] string ObjectName;
+    private Color highlightColor;
+    Material originalMaterial, tempMaterial;
+    Renderer rend = null;
+
+    void Start()
+    {
+        highlightColor = Color.yellow;
+    }
 
     // Start is called before the first frame update
     void Awake()
@@ -20,21 +32,56 @@ public class PlayerCameraController : MonoBehaviour
         xAxisClamp = 0f;
     }
 
-    Rigidbody rb;
+    Transform transf;
     // Update is called once per frame
     void Update()
     {
         CameraRotation();
 
         RaycastHit hit;
+        Renderer currRend;
 
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            rb = rb.GetComponent<Rigidbody>();
+            currRend = hit.collider.gameObject.GetComponent<Renderer>();
+            transf = hit.collider.gameObject.GetComponent<Transform>();
 
-            if (rb != null)
+            if (currRend == rend)
+                return;
+
+            if (currRend && currRend != rend)
+                if (rend)
+                    rend.sharedMaterial = originalMaterial;
+
+            if (currRend)
+                rend = currRend;
+
+            else
+                return;
+
+            originalMaterial = rend.sharedMaterial;
+
+            tempMaterial = new Material(originalMaterial);
+            rend.material = tempMaterial;
+            rend.material.color = highlightColor;
+
+            distance = Vector3.Distance(hit.collider.transform.position, transform.position);
+            Debug.Log($"Stai guardando {hit}");
+
+            if (Input.GetButtonDown("Fire1"))
             {
+                Debug.Log($"Cliccato {hit}");
+                transf.position = transform.position + new Vector3(0, 0, distance);
+            }
 
+        }
+
+        else
+        {
+            if (rend)
+            {
+                rend.sharedMaterial = originalMaterial;
+                rend = null;
             }
         }
     }

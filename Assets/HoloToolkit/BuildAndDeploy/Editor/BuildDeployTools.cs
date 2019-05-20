@@ -255,16 +255,16 @@ namespace HoloToolkit.Unity
             string nugetPath = Path.Combine(unity, @"Data\PlaybackEngines\MetroSupport\Tools\NuGet.exe");
 
             // Before building, need to run a nuget restore to generate a json.lock file. Failing to do this breaks the build in VS RTM
-            if (PlayerSettings.GetScriptingBackend(BuildTargetGroup.WSA) == ScriptingImplementation.WinRTDotNET &&
-                (!RestoreNugetPackages(nugetPath, storePath) ||
-                 !RestoreNugetPackages(nugetPath, storePath + "\\" + productName) ||
-                 EditorUserBuildSettings.wsaGenerateReferenceProjects && !RestoreNugetPackages(nugetPath, assemblyCSharp) ||
-                 EditorUserBuildSettings.wsaGenerateReferenceProjects && restoreFirstPass && !RestoreNugetPackages(nugetPath, assemblyCSharpFirstPass)))
-            {
-                Debug.LogError("Failed to restore nuget packages");
-                EditorUtility.ClearProgressBar();
-                return false;
-            }
+            //if (PlayerSettings.GetScriptingBackend(BuildTargetGroup.WSA) == ScriptingImplementation.WinRTDotNET &&
+            //    (!RestoreNugetPackages(nugetPath, storePath) ||
+            //     !RestoreNugetPackages(nugetPath, storePath + "\\" + productName) ||
+            //     //EditorUserBuildSettings.wsaGenerateReferenceProjects && !RestoreNugetPackages(nugetPath, assemblyCSharp) ||
+            //     //EditorUserBuildSettings.wsaGenerateReferenceProjects && restoreFirstPass && !RestoreNugetPackages(nugetPath, assemblyCSharpFirstPass)))
+            //{
+            //    Debug.LogError("Failed to restore nuget packages");
+            //    EditorUtility.ClearProgressBar();
+            //    return false;
+            //}
 
             EditorUtility.DisplayProgressBar("Build AppX", "Building AppX Package...", 25);
 
